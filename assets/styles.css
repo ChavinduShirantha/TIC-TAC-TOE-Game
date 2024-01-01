@@ -1,23 +1,23 @@
 
-body{
+body {
     height: 100%;
     background: linear-gradient(to right, #2626a4, #000000);
 }
 
-.main-container{
+.main-container {
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.container{
+.container {
     position: relative;
     left: 0;
     right: 0;
@@ -29,7 +29,7 @@ h1{
     gap: 20px;
 }
 
-.btn{
+.btn {
     background: #ffffff;
     height: 150px;
     width: 150px;
@@ -40,7 +40,7 @@ h1{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
-#btn-restart{
+#btn-restart {
     font-size: 1.3em;
     width: 150px;
     height: 50px;
@@ -54,9 +54,53 @@ h1{
     display: block;
 }
 
-#btn-restart:hover{
+#btn-restart:hover {
     background-color: white;
     color: red;
     border: 2px solid red;
     cursor: pointer;
+}
+
+#btn-new{
+    font-size: 1.3em;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    margin: 20px auto;
+    display: block;
+}
+
+#btn-new:hover {
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+
+#winning-msg{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5em;
+}
+
+.win-container{
+    background: linear-gradient(to right, #2626a4, #000000);
+    height: 100%;
+    width: 98%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.win-container.hide {
+    display: none;
 }
