@@ -1,4 +1,8 @@
+<div align="center">
+
 # TIC-TAC-TOA Game
+
+</div>
 
 * HTML
 * Javascript
