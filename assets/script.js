@@ -2,10 +2,13 @@ let btn = document.querySelectorAll(".btn");
 let btnRestart = document.getElementById("btn-restart");
 let winningMsg = document.getElementById("winning-msg");
 let winContainer = document.querySelector(".win-container");
+let btnNew = document.getElementById("btn-new");
 
 
 //Player 'O' plays first
 let oTurn = true;
+
+let count = 0;
 
 //Winning Pattern Array
 let winningPattern = [
@@ -25,9 +28,9 @@ let winningPattern = [
 const showWinner = (winner) => {
     winContainer.classList.remove("hide");
     if (winner === "O") {
-        winningMsg.innerHTML = "🎊 Winner is O 🎉";
+        winningMsg.innerHTML = " 🥇 <br> 🎊 Winner is O 🎉 🥇";
     } else {
-        winningMsg.innerHTML = "🎊 Winner is X 🎉";
+        winningMsg.innerHTML = " 🥇 <br> 🎊 Winner is X 🎉";
     }
 };
 
@@ -47,6 +50,11 @@ const findWinner = () => {
     }
 };
 
+const showGameDraw = () => {
+    winContainer.classList.remove("hide");
+    winningMsg.innerHTML = "🎏 Game is Draw 🤼‍♂️";
+};
+
 //Display X/O on click
 btn.forEach((element) => {
     element.addEventListener("click", () => {
@@ -62,6 +70,11 @@ btn.forEach((element) => {
             element.disabled = true;
         }
 
+        count += 1;
+        if (count === 9) {
+            showGameDraw();
+        }
+
         findWinner();
     });
 });
@@ -75,5 +88,12 @@ const enableButtons = () => {
 };
 
 btnRestart.addEventListener("click", () => {
+    count=0;
     enableButtons();
+});
+
+btnNew.addEventListener("click", () => {
+    count = 0;
+    enableButtons();
+    winContainer.classList.add("hide");
 });
