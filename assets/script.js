@@ -1,4 +1,5 @@
 let btn = document.querySelectorAll(".btn");
+let btnRestart = document.getElementById("btn-restart");
 
 //Player 'O' plays first
 let oTurn = true;
@@ -18,4 +19,16 @@ btn.forEach((element) => {
             element.disabled = true;
         }
     });
+});
+
+
+const enableButtons = () => {
+    btn.forEach((element) => {
+        element.innerText = "";
+        element.disabled = false;
+    });
+};
+
+btnRestart.addEventListener("click", () => {
+    enableButtons();
 });
