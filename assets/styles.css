@@ -5,9 +5,9 @@ body {
 }
 
 .main-container {
-    position: relative;
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    height: 98%;
+    width: 98%;
 }
 
 h1 {
@@ -91,7 +91,7 @@ h1 {
 
 .win-container{
     background: linear-gradient(to right, #2626a4, #000000);
-    height: 100%;
+    height: 98%;
     width: 98%;
     position: absolute;
     display: flex;
