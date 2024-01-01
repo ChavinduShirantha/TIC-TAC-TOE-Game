@@ -1,0 +1,62 @@
+
+body{
+    height: 100%;
+    background: linear-gradient(to right, #2626a4, #000000);
+}
+
+.main-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 490px;
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn{
+    background: #ffffff;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+    color: #2626a4;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#btn-restart{
+    font-size: 1.3em;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    margin: 20px auto;
+    display: block;
+}
+
+#btn-restart:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
