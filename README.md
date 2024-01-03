@@ -18,7 +18,7 @@
 ###  
 ### Clone this repository ✅
 ```md
-https://github.com/ChavinduShirantha/TIC-TAC-TOE-GAME
+https://github.com/ChavinduShirantha/TIC-TAC-TOE-Game
 ```
 ##  Connect with me
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
@@ -36,11 +36,11 @@ https://github.com/ChavinduShirantha/TIC-TAC-TOE-GAME
 
 <div align="center">
 
-![repo license](https://img.shields.io/github/license/ChavinduShirantha/TIC-TAC-TOE-GAME?&labelColor=black&color=3867d6&style=for-the-badge)
-![repo size](https://img.shields.io/github/repo-size/ChavinduShirantha/TIC-TAC-TOE-GAME?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
-![GitHub forks](https://img.shields.io/github/forks/ChavinduShirantha/TIC-TAC-TOE-GAME?&labelColor=black&color=0fb9b1&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/ChavinduShirantha/TIC-TAC-TOE-GAME?&labelColor=black&color=f7b731&style=for-the-badge)
-![GitHub LastCommit](https://img.shields.io/github/last-commit/ChavinduShirantha/TIC-TAC-TOE-GAME?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
+![repo license](https://img.shields.io/github/license/ChavinduShirantha/TIC-TAC-TOE-Game?&labelColor=black&color=3867d6&style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/ChavinduShirantha/TIC-TAC-TOE-Game?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
+![GitHub forks](https://img.shields.io/github/forks/ChavinduShirantha/TIC-TAC-TOE-Game?&labelColor=black&color=0fb9b1&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/ChavinduShirantha/TIC-TAC-TOE-Game?&labelColor=black&color=f7b731&style=for-the-badge)
+![GitHub LastCommit](https://img.shields.io/github/last-commit/ChavinduShirantha/TIC-TAC-TOE-Game?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
 </div>
 
 <div align="center">
