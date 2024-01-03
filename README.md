@@ -9,7 +9,7 @@
 * CSS
 
 
-### -Portfolio
+### -TIC-TAC-TOA Game
 * 🔗 <a href="https://github.com/ChavinduShirantha/TIC-TAC-TOE-GAME" target="_blank">GitHub Project Link</a>
 * 🔗 <a href="https://chavindushirantha.github.io/TIC-TAC-TOE-GAME/" target="_blank">GitHub Page</a>
 
